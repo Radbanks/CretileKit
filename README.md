@@ -19,4 +19,4 @@ Cretile is an extensive kit of modular building blocks for Electronics, Robotics
 Please be mindful of the proper componenets needed to be used.
 The Website used to run the above files is https://app.cretile.com/ , but the .ino files can only be used with the Arduino IDE for Cretile software.
 
-### I am in no way associated with Cretile and its company these are just codes I made using their Kit and Web application.
+### I am in no way associated with the Cretile, these are just codes I made using their Kit.
