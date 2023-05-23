@@ -20,7 +20,8 @@ Please be mindful of the proper componenets needed to be used.
 The Website used to run the above files is https://app.cretile.com/ , but the .ino files can only be used with the Arduino IDE for Cretile software.
 
 #### Testing LED 
-<img src="Test_Pictures/Test_LED.jpg" width="500">
+<img src="Test_Pictures/Test_LED1.jpg" width="500">
+<img src="Test_Pictures/Test_LED2.jpg" width="500">
 <ul> This will only work on the Software since it uses .ino files</ul>
 
 #### Testing OLED (Comes with CretileKit)
