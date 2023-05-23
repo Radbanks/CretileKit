@@ -20,13 +20,13 @@ Please be mindful of the proper componenets needed to be used.
 The Website used to run the above files is https://app.cretile.com/ , but the .ino files can only be used with the Arduino IDE for Cretile software.
 
 #### Testing LED 
-![](hTest_Pictures/Test_LED.jpg?raw=true)
+<img src="Test_Pictures/Test_LED.jpg" width="500">
 <ul> This will only work on the Software since it uses .ino files</ul>
 
 #### Testing OLED (Comes with CretileKit)
-![](Test_Pictures/Test_OLED.jpg?raw=true)
+<img src="Test_Pictures/Test_OLED.jpg" width ="500" >
 
 #### Testing VibrationDetection (Comes with CretileKit)
-![](Test_Pictures/Test_VibrationDetection.jpg?raw=true)
+<img src="Test_Pictures/Test_VibrationDetection.jpg" width ="500" >
 
 ### I am in no way associated with the Cretile, these are just codes I made using their Kit.
