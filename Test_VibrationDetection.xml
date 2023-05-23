@@ -1,0 +1,80 @@
+<xml xmlns="https://app.cretile.com">
+  <workspace>
+    <field name="DEVICE">ESP32</field>
+    <field name="TIMESTAMP">1684825337485</field>
+    <freeboard><![CDATA[]]></freeboard>
+    <databoard><![CDATA[]]></databoard> 
+  </workspace>
+  <block type="project_metadata" id="M_H~u.XU0ljLiB1auR~?" x="-412" y="-837">
+    <value name="project_author">
+      <shadow type="text" id="NXtCJO):Q0rJ#.ztOSh?">
+        <field name="TEXT">User</field>
+      </shadow>
+    </value>
+    <value name="project_description">
+      <shadow type="text" id=")NObRe|1}9x/?ZBdjvSt">
+        <field name="TEXT">My project</field>
+      </shadow>
+    </value>
+  </block>
+  <block type="sketch" id="dI8H7beG.ML#fkzez4Mn" deletable="false" x="-412" y="-738">
+    <statement name="__statements">
+      <block type="controls_whileUntil" id="%!QOOD3y~dQO_+0PomIU">
+        <field name="MODE">UNTIL</field>
+        <value name="BOOL">
+          <block type="logic_boolean" id="7qX:@*8ZT=mAVkoA,^{3">
+            <field name="BOOL">FALSE</field>
+          </block>
+        </value>
+        <statement name="DO">
+          <block type="controls_if" id="5AzY}qJ|fH7qc-]Fvo+#">
+            <value name="IF0">
+              <block type="netlogic_sensor" id="(3+WR]gu)J.OqnkEzRav">
+                <value name="__sensor">
+                  <shadow type="math_number" id="j].7TMqMVhA58:Z|+(`s">
+                    <field name="NUM">1</field>
+                  </shadow>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="netlogic_output" id="GhFBaIP2;s.C}oeJS;Y9">
+                <value name="__ouput1">
+                  <shadow type="math_number" id="x=o|o7;zngIAa;.OAO*K">
+                    <field name="NUM">2</field>
+                  </shadow>
+                </value>
+                <value name="__output2">
+                  <shadow type="math_number" id="i%0J@=hf@c2Xb/@v;^5n">
+                    <field name="NUM">99</field>
+                  </shadow>
+                </value>
+              </block>
+            </statement>
+            <next>
+              <block type="netlogic_output" id="FeN6Ys:G}ELZFeN^V!8M">
+                <value name="__ouput1">
+                  <shadow type="math_number" id="5VlOCDpY{|KC^JE3xBX]">
+                    <field name="NUM">2</field>
+                  </shadow>
+                </value>
+                <value name="__output2">
+                  <shadow type="math_number" id="atg$D}(+]9j~s{?i:57?">
+                    <field name="NUM">0</field>
+                  </shadow>
+                </value>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="netlogic_input" id="Sn@WRLU}qJyq=F~N`Qlb" disabled="true" x="113" y="-662">
+    <value name="__input">
+      <shadow type="math_number" id="2GX)@,]ix`S=d[9MYrk~">
+        <field name="NUM">2</field>
+      </shadow>
+    </value>
+  </block>
+</xml>
